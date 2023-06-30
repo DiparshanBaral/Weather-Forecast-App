@@ -6,18 +6,49 @@
     <title>Weather</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src='script.js'></script>
 </head>
 <body>
-    <div>
-        <img src="snow-1265208_1280.png" class="main" width="35px" height="30px">
-        <h1 class="main">Weather</h1>
-        <div id="time-section">
-            <h2 id="day"></h2>
-            <p id="date"></p>
-            <p id="time"></p>
+    <div id="main">
+        <div class="Weather-Time">
+            <div class="left-top">
+                <h1 id="head">Weather</h1>
+            </div>
+            <div class="mid-top">
+                <input type="text" id="Search-box" placeholder="  Search..">
+                <button type="submit" id="sub"><i class="fa fa-search"></i></button>
+            </div>
+            <div class="right-top">
+                <h1 id="day">Wednesday</h1>
+                <p id="date">30th May, 2023</p>
+                <p id="time">10:48 P.M.</p>
+            </div>
         </div>
-        
+        <div id="temp">
+            <img src="/Images/WeatherLogo.png" id="Current-Weather-Logo" alt="Weather Logo" width="100px" height="100px">
+            <p id="temperature">21*C</p>
+        </div>
+        <div class="sub-main">
+            <div class="Humidity">
+                <p id="Humid">Humidity</p>
+                <p id="Humid-percent">66%</p>
+            </div>
+            <div class="Precipitation">
+                <p id="precip">Precipitation</p>
+                <p id="precip-percent">40%</p>
+            </div>
+        </div>
+        <div class="second-sub-main">
+            <div class="Wind">
+                <p id="Windy">Wind</p>
+                <p id="Windy-percent">9kmph</p>
+            </div>
+            <div class="Pressure">
+                <p id="press">Pressure</p>
+                <p id="press-percent">1011mb</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>

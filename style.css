@@ -1,0 +1,158 @@
+#main{
+    background-image: url(/Images/BlueBack.jpg);
+    border-radius: 21px;
+}
+
+.Weather-Time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-top{
+    flex: 1;
+    margin: 0 0 0 20px;
+}
+
+#head{
+    font-size: 40px;
+}
+
+.mid-top{
+    flex:1;
+    text-align: center;
+    margin: 0 0 80px 0;
+    align-items: center;
+}
+
+#Search-box{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #bac0da;
+    width: 200px;
+}
+
+#sub{
+    margin-left:0;
+    padding: 8px 12px;
+    background-color: #0b4079;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.right-top{
+    flex: 1;
+    text-align: right;
+    margin: 60px 20px 0 0;
+}
+
+#day{
+    margin-bottom: 8px;
+}
+
+#date{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+#time{
+    margin-top: 5px;
+}
+
+#temp{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#Current-Weather-Logo{
+    margin: 0 21px 50px 0;
+}
+
+#temperature{
+    margin-top: 32px;
+    font-size: 100px;
+}
+
+.sub-main{
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.Humidity{
+    margin: 0 30px 20px 0;
+    border: 2px solid #232840;
+    padding-left: 55px;
+    padding-right: 45px;
+    border-radius: 21px;
+}
+
+.Precipitation{
+    margin: 0 0 20px 165px;
+    border: 2px solid #232840;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 21px;
+}
+
+#Humid{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Humid-percent{
+    font-size:25px ;
+}
+
+#precip{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#precip-percent{
+    font-size:25px ;
+}
+
+.second-sub-main{
+    margin-left: 450px;
+    display: flex;
+    align-items: center;
+}
+
+.Wind{
+    margin: 0 0 20px 0;
+    border: 2px solid #232840;
+    padding-left: 55px;
+    padding-right: 77px;
+    border-radius: 21px;
+}
+
+.Pressure{
+    margin: 0 0 20px 197px;
+    border: 2px solid #232840;
+    padding-left: 53px;
+    padding-right: 52px;
+    border-radius: 21px;
+}
+
+#Windy{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#Windy-percent{
+    font-size:25px ;
+}
+
+#press{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#press-percent{
+    font-size:25px ;
+}
