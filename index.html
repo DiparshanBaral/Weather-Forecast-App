@@ -17,17 +17,21 @@
             </div>
             <div class="mid-top">
                 <input type="text" id="Search-box" placeholder="  Search..">
-                <button type="submit" id="sub"><i class="fa fa-search"></i></button>
+                <button type="submit" onclick="fetchData()" id="sub"><i class="fa fa-search"></i></button>
             </div>
+            <h4 id="d">Description</h4>
             <div class="right-top">
                 <h1 id="day">Wednesday</h1>
                 <p id="date">30th May, 2023</p>
                 <p id="time">10:48 P.M.</p>
             </div>
         </div>
+        <div class="cityDiv">
+            <h1 id="cityN">Kathmandu</h1>
+        </div>
         <div id="temp">
             <img src="/Images/WeatherLogo.png" id="Current-Weather-Logo" alt="Weather Logo" width="100px" height="100px">
-            <p id="temperature">21*C</p>
+            <p id="temperature">21*C</p><p>°C</p>
         </div>
         <div class="sub-main">
             <div class="Humidity">
