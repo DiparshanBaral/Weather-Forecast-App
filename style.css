@@ -11,18 +11,28 @@
 }
 
 .mid-top{
+    display: flex;
+    justify-content: center;
     text-align: center;
     align-items: center;
-    margin-top: 0;
-    padding-top: 25px;
+    margin: 0;
+    padding-top: 21px;
+}
+
+#error_message{
+    margin: 0 0 0 550px;
+    font-size: 15px;
+    color: red;
+    font-style: oblique;
 }
 
 #Search-box{
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 3px solid #ccc;
     border-radius: 40px;
     background-color: #bac0da;
     width: 400px;
+    outline: none;
 }
 
 #sub{
@@ -41,7 +51,7 @@
     font-family: Garamond, serif;
     font-weight: bold;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 0;
     margin-bottom: 30px;
   }
   
@@ -52,7 +62,7 @@
 
 .right-top{
     position: fixed;
-    top: 90px;
+    top: 130px;
     right: 20px;
     text-align: right;
     margin-right: 20px;
