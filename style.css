@@ -1,13 +1,18 @@
 #main{
-    background-image: url(./Images/yoo.png);
+    background-image: url(./Images/Background.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
     border-radius: 21px;
-    padding-bottom: 0;
+    padding-bottom: 50px;
     margin-bottom: 20px;
 }
 
 #head{
     font-size: 30px;
     margin-left: 20px;
+    font-family: Garamond, serif;
+    
 }
 
 .mid-top{
@@ -45,14 +50,22 @@
     cursor: pointer;
 }
 
+#city-date{
+    display: flex;
+    align-items: center;
+}
+
+#city-country{
+    flex: 1;
+}
+
 #cityName {
     display: inline-block;
     margin-left: 20px;
     font-family: Garamond, serif;
     font-weight: bold;
     font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin-top: 50px;
   }
   
   #Country {
@@ -61,11 +74,9 @@
   
 
 .right-top{
-    position: fixed;
-    top: 130px;
-    right: 20px;
     text-align: right;
     margin-right: 20px;
+    font-family: Garamond, serif;
 }
 
 #day{
@@ -82,7 +93,6 @@
 }
 
 #temp{
-    margin-left: 20px;
     display: flex;
     align-items: flex-start;
 }
@@ -127,7 +137,7 @@
     margin-left: 450px;
     display: flex;
     align-items: center;
-    margin-top: 45px;
+    margin-top: 70px;
 }
 
 .Humidity{
