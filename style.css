@@ -215,11 +215,17 @@
     .sub-main{
         margin-left: 250px;
     }
+    #error_message{
+        margin: 0 0 0 370px;
+    }
 }
 
 @media screen and (max-width: 1020px){
     .sub-main{
         margin-left: 40px;
+    }
+    #error_message{
+        margin: 0 0 0 370px;
     }
 }
 
@@ -245,6 +251,10 @@
         padding-left: 15px;
         padding-right: 15px;
     }    
+
+    #error_message{
+        margin: 0 0 0 170px;
+    }
 
 }
 
@@ -290,5 +300,9 @@
 
     #date, #time{
         font-size: 10px;
+    }
+
+    #error_message{
+        margin: 0 0 0 50px;
     }
 }
