@@ -210,3 +210,85 @@
     margin: 23px 0 0 0;
     font-size: 21px;
 }
+
+@media screen and (max-width: 1211px){
+    .sub-main{
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .sub-main{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 805px){
+    .sub-main{
+        margin-left: 10px;
+    }
+
+    .Humidity{
+        margin: 0 10px 20px 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Wind{
+        margin: 0 0 20px 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .Pressure{
+        margin: 0 0 20px 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }    
+
+}
+
+@media screen and (max-width: 625px){
+    .sub-main {
+        flex-wrap: wrap;
+    }
+    
+    #temp{
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    #Current-Weather-Logo{
+        width: 100px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    
+    #temperature{ 
+        font-size: 60px;
+        margin-right: 5px;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    
+    #degree{
+        font-size: 35px;
+        margin-right: 20px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    #Description{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    #day{
+        font-size: 23px;
+    }
+
+    #date, #time{
+        font-size: 10px;
+    }
+}
